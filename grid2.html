@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid</title>
+    <style>
+        .text{
+            text-align: center;
+            justify-content: center;
+            margin-top: 85px;
+        }
+        .parent{
+            height:auto;
+            width: auto;
+            display: grid;
+            grid-template-columns: repeat(3,300px);
+            text-align: center;
+            justify-content: center;
+           
+          
+           
+        }
+        .child{
+            height: 100px;
+            width: 100px;
+            border: 1px solid black;
+            margin: 20px;
+           
+            
+        }
+        .box1{
+            height: 200px;
+            width: 200px;
+            border-radius: 25px ;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-align: center;
+            justify-self: center;
+            margin-top: 50px;
+            background-color: antiquewhite;
+        }
+        .box2{
+            text-align: center;
+            justify-self: center;
+            padding: 20px;
+          height: 520px;
+          width: 230px;
+         border-radius: 25px;
+         background-image: url("https://www.firstalliancecu.com/hubfs/MicrosoftTeams-image%20%2821%29-1.png#keepProtocol");
+         background-position: center;
+         background-size: cover;
+         grid-row-start: 1;
+         grid-row-end: 3;
+         
+     
+           
+        }
+      .box3{
+     padding: 20px;
+    height: 220px;
+     width: 210px;
+        justify-self: center;         border-radius: 25px;
+        background-image: url("https://thumbs.dreamstime.com/z/beautiful-smiling-girl-holding-laptop-computer-beautiful-smiling-girl-holding-laptop-computer-standing-outdoors-147914681.jpg");
+        background-position: center;
+        background-size: cover;
+
+      }
+      .box4{
+        padding: 20px;
+        padding: 20px;
+        height: 220px;
+         width: 210px;
+            justify-self: center;
+             border-radius: 25px;
+             background-image: url("https://th.bing.com/th/id/OIP.63zI4-7rymUGy5BE3fgrOgHaE8?rs=1&pid=ImgDetMain");
+             background-size: cover;
+             background-position: center;
+      }
+      .box6{
+        height: 200px;
+        width: 200px;
+        border-radius: 25px ;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-align: center;
+        justify-self: center;
+        margin-top: 50px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-align: center;
+        background-color: cadetblue;
+    }
+      
+
+
+    </style>
+</head>
+<body>
+    <div class="text">
+        <h1>ENSURE YOUR SPENDING  <br>IS WORTHWHILE</h1>
+        <p>Lorem ipsum dolor sit amet consectetur  <br> adipisicing elit. Pariatur a quasi  illum  veniam laboriosam <br> rem sed adipisci eveniet  fuga  ratione praesentium similique velit in repudiandae eaque, eos delectus deserunt nam.</p>
+    </div>
+    <div class="parent">
+        <div class="box1 child">
+            <h5>Regularly reviewing and analizing expenses help</h5>
+            <h1>
+                75% of <br>
+                households
+            </h1>
+        </div>
+        <div class="box2 child"></div>
+        <div class="box3 child"></div>
+        <div class="box4 child"></div>
+        <!-- <div class="box5 child"></div>  -->
+        <div class="box6 child">
+            <h1>24 hours</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus dolore blanditiis perferendis, esse eligendi </p>
+        </div>
+
+        
+    </div>
+</body>
+</html>
